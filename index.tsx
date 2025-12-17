@@ -5,7 +5,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { Search, Book, GraduationCap, Loader2, Volume2, ArrowRight, Lightbulb, ChevronRight, Menu, X, Zap, Table, ArrowLeft, Database, SearchIcon } from 'lucide-react';
 
 // --- API Configuration ---
-const MODEL_NAME = 'gemini-1.5-flash';
+const MODEL_NAME = 'gemini-1.5-flash-001';
 const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 // --- Types ---
